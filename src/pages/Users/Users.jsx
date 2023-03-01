@@ -15,7 +15,8 @@ const Users = () => {
 
   return (
     <>
-      <h2>All user loaded here</h2>
+      <h2>All user loaded here from jsonplaceholder</h2>
+      <br />
       <div className="users">
         {
           data?.data?.map(({ id, name, username, email, phone, website, address, company }) => <div key={id} className="user">
