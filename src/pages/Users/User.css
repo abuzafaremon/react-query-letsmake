@@ -1,0 +1,11 @@
+.users{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.user{
+  border: 1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+}
