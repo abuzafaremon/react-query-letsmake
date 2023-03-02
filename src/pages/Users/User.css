@@ -1,9 +1,11 @@
-.users{
+.users {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
-.user{
+
+.user {
   border: 1px solid;
   border-radius: 5px;
   width: fit-content;

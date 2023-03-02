@@ -19,7 +19,7 @@ const Users = () => {
       <br />
       <div className="users">
         {
-          data?.data?.map(({ id, name, username, email, phone, website, address, company }) => <div key={id} className="user">
+          data?.data?.map(({ id, username }) => <div key={id} className="user">
             <Link to={`/users/${id}`}>UserName: <span>{username}</span></Link>
           </div>)
         }

@@ -13,9 +13,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/users' element={<Users />} >
-          {/* nested route */}
-          <Route path=':userId' element={<User />} />
         </Route>
+        <Route path='/users/:userId' element={<User />} />
         <Route path='/about' element={<About />} />
         <Route path='/' element={<Home />} />
       </Routes>

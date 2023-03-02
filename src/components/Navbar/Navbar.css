@@ -9,8 +9,11 @@ nav {
 nav ul {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 nav ul li {
+  padding: 5px 10px;
   list-style: none;
+  border: 1px solid;
 }
