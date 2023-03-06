@@ -10,5 +10,6 @@ export const useUser = (userId) => {
     queryKey: ['users', userId],
     queryFn: fetchUser,
     refetchOnWindowFocus: true,
+    staleTime: 30000,
   });
 };

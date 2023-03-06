@@ -7,6 +7,8 @@ export const useUsers = () => {
   }
   return useQuery({
     queryKey: ['users'],
-    queryFn: fetchUsers
+    queryFn: fetchUsers,
+    staleTime: 30000,
+    refetchOnWindowFocus: true,
   });
 };
